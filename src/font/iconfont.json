@@ -1,0 +1,79 @@
+{
+  "id": "1969354",
+  "name": "惠买",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1113888",
+      "name": "床",
+      "font_class": "icon321",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "2980075",
+      "name": "手机",
+      "font_class": "shouji3",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3848642",
+      "name": "吸尘器",
+      "font_class": "xichenqi",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "4749744",
+      "name": "电视",
+      "font_class": "dianshi",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "8356893",
+      "name": "柜子",
+      "font_class": "guizi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8680403",
+      "name": "首页-选中",
+      "font_class": "index",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "9209937",
+      "name": "瓶子",
+      "font_class": "tubiao--copy",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "10043163",
+      "name": "音量",
+      "font_class": "yinliang",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "10404637",
+      "name": "电视",
+      "font_class": "dianshi1",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "14076191",
+      "name": "跑步",
+      "font_class": "paobu",
+      "unicode": "e6d4",
+      "unicode_decimal": 59092
+    }
+  ]
+}

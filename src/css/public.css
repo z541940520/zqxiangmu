@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+#top{
+    width: 70px;
+    height: 70px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 12px;
+    background: yellow;
+    display: none;
+}
+
+/* 头部导航 */
+
+header {
+    width: 100%;
+    height: 28px;
+    border-bottom: 1px solid #dddddd;
+    background: #F6F6F6;
+}
+
+
+/* 导航左边设置 */
+
+.top-nav {
+    width: 1000px;
+    height: 28px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-navleft {
+    display: flex;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.top-navleft span {
+    font-size: 12px;
+    line-height: 28px;
+    margin-top: 2px;
+    color: #666;
+}
+
+.top-navleft p {
+    color: #666;
+}
+
+
+/* 导航右边样式 */
+
+.top-navright {
+    display: flex;
+    font-size: 12px;
+}
+
+.top-navright .lastli span {
+    font-size: 12px;
+}
+
+
+/* .top-navright li {} */
+
+.top-navright li a {
+    border-right: 1px solid #666;
+    padding: 0 12px;
+    height: 16px;
+    color: #666;
+}
+
+.top-navright .lastli a {
+    border: none;
+}
+
+.lastli {
+    position: relative;
+}
+
+.top-img {
+    position: absolute;
+    left: 0;
+    bottom: -150px;
+    display: none;
+}
+
+.lastli:hover .top-img {
+    display: block;
+}
+
+
+/* 第二部分  搜索框 */
+
+.search {
+    width: 1000px;
+    height: 95px;
+    margin: 0 auto;
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-center {
+    display: flex;
+    /* padding-left: 20px; */
+}
+
+.search-center .center-top input {
+    width: 343px;
+    height: 36px;
+    text-align: left;
+    border: 3px solid red;
+}
+
+.search-center .center-img {
+    width: 76px;
+    height: 42px;
+    background: red;
+    text-align: center;
+    line-height: 42px;
+    border: none;
+}
+
+
+/* 第三部分  导航栏 */
+
+#nav {
+    width: 100%;
+    height: 40px;
+    background: red;
+}
+
+.nav {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.nav li {
+    float: left;
+    color: white;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.nav .listli {
+    float: right;
+    position: relative;
+}
+
+.nav li a {
+    color: white;
+}
+
+.nav .navlist>li:hover {
+    background: #E20700;
+}
+
+
+/* 二级菜单 */
+
+.nav .goodslist {
+    width: 1000px;
+    height: 296px;
+    position: absolute;
+    bottom: -298px;
+    border: 1px solid red;
+    left: -890px;
+    display: none;
+    background: white;
+}
+
+.nav .goodslist a {
+    color: black;
+}
+
+.nav .goodslist h3 {
+    color: black;
+}
+
+.nav .goodslist div {
+    width: 141px;
+    height: 100%;
+    float: left;
+    padding: 0 12px;
+    border-left: 1px solid lightblue;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.nav .goodslist li {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 30px;
+}
+
+.nav .goodslist h3 {
+    border-bottom: 1px dashed lightblue;
+}
+
+.nav .goodslist a:hover {
+    color: red;
+}
+
+.nav .listli:hover .goodslist {
+    display: block;
+}
+
+.goodslist div:last-child {
+    border-right: none;
+}
+
+
+/* 底部图标 */
+
+.footer {
+    width: 1000px;
+    height: 102px;
+    border-bottom: 1px solid lightblue;
+    margin: 0 auto;
+}
+
+
+/* 底部链接 */
+
+footer {
+    width: 1000px;
+    height: 167px;
+    margin: 0 auto;
+    display: flex;
+    padding: 26px 0 26px 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div {
+    width: 138px;
+    height: 114px;
+    border-left: 1px solid lightblue;
+}
+
+.footer-last {
+    width: 274px;
+    border-left: none;
+}
+
+footer ul li a {
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    color: #666666;
+    margin-top: 3px;
+}
+
+footer div h3 {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer div:first-child {
+    border-left: none;
+}
+
+
+/* 倒数第二部分 */
+
+.end {
+    width: 1000px;
+    height: 26px;
+    display: flex;
+    margin: 22px auto 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.end a {
+    height: 17px;
+    padding: 0 12px;
+    font-size: 14px;
+    color: #666666;
+    border-right: 1px solid #666666;
+}
+
+.end a:last-child {
+    border-right: none;
+}
+
+
+/* 底部 */
+
+.link {
+    width: 1000px;
+    height: 130px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
